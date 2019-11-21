@@ -16,6 +16,8 @@ const User = require('./models/user');
 
 const app = express();
 
+const nodemailer = require('nodemailer');
+
 app.set('views', join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 
